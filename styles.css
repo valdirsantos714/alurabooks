@@ -1,0 +1,26 @@
+@import "./styles/header.css";
+
+:root {
+    --bg-color: #EBECEE;
+    --font-color: black;
+
+}
+
+body {
+    background-color: var(--bg-color);
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --bg-color: rgb(34, 33, 33);
+        --font-color: #ccc;
+        --bg-color-menu: black;
+    
+    }
+
+    html {
+        color-scheme: dark;
+    }
+    
+}
+

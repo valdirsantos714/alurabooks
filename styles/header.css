@@ -1,0 +1,67 @@
+
+#amostraLista {
+    display: none; /**/
+}
+
+.cabecalho__menu__hamburguer {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background-image: url(../assets/hamburguer.svg);
+    background-position: center;
+    background-size: cover;
+    margin: 0 15px;
+}
+
+.cabecalho {
+    display: flex;
+    height: auto;
+    background-color: green;
+    justify-content: space-between;
+    align-items: center; 
+    position: relative;  
+}
+
+.container_imagem {
+    padding-right: 10px;
+}
+
+.lista {
+    display: none;
+}
+
+#amostraLista:checked ~ .lista {
+    display: block;
+    position: absolute;
+    top: 100%;
+
+}
+
+#amostraLista:checked ~ .cabecalho__menu__hamburguer {
+    color: blue;
+}
+
+
+.lista { /*Não pode colocar display flex aqui senão dar erro*/
+    align-items: center;
+    text-align: center;
+    font-size: 1.1rem;
+    padding: 15px;
+    width: 70%;
+    background-color:  var(--bg-color-menu);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.lista-titulo {
+    font-weight: bold;
+    color: #EB9B00;
+    padding: 24px, 24px, 8px, 24px;
+}
+
+.lista-item {
+   padding:  24px, 24px, 16px, 24px;
+}
+
+.lista li a {
+    color: var(--font-color);
+}
