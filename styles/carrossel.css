@@ -12,10 +12,6 @@
     width: auto;
 }
 
-.swiper-wrapper {
-    display: flex;
-    justify-content: space-around;
-}
 
 .swiper-slide img {
     width: 100%;
