@@ -1,13 +1,19 @@
-@import "./styles/header.css";
+@import url(styles/header.css);
+@import url(styles/banner.css);
+
+/*Aqui vc importa os outros estilos para não ficar um monte de links no index.html*/
 
 :root {
     --bg-color: #EBECEE;
     --font-color: black;
+    --font-principal: "Poppins";
 
 }
 
 body {
     background-color: var(--bg-color);
+    font-family: var(--font-principal);
+    font-weight: 400;
 }
 
 @media (prefers-color-scheme: dark) {

@@ -1,0 +1,25 @@
+#banner {
+    background: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+    text-align: center;
+    padding: 24px;
+}
+
+#input-banner {
+    width: 100%;
+    border-radius: 25px;
+    background-color: transparent;
+    border: 1px solid white;
+    padding: 10px;
+}
+
+#banner h2, p {
+    padding-bottom: 10px;
+}
+
+#input-banner::placeholder {
+    background: url(../assets/lupa.svg);
+    background-position: 0.1em;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: #FFFFFF;
+}
