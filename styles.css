@@ -1,5 +1,6 @@
 @import url(styles/header.css);
 @import url(styles/banner.css);
+@import url(styles/carrossel.css);
 
 /*Aqui vc importa os outros estilos para não ficar um monte de links no index.html*/
 
@@ -7,6 +8,8 @@
     --bg-color: #EBECEE;
     --font-color: black;
     --font-principal: "Poppins";
+    --branco: white;
+    --bg-color-menu: black;
 
 }
 
@@ -14,6 +17,7 @@ body {
     background-color: var(--bg-color);
     font-family: var(--font-principal);
     font-weight: 400;
+    font-size: 1rem; /*1rem = 16px mas só que se tiver alguma opção de acessiblidade ele aumenta*/
 }
 
 @media (prefers-color-scheme: dark) {

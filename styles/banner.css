@@ -4,12 +4,24 @@
     padding: 24px;
 }
 
+#titulo-banner {
+    color: var(--branco);
+    font-weight: 700;
+}
+
+#paragrafo-banner {
+    color: var(--branco);
+    font-size: 1em;
+    font-weight: 500;
+}
+
 #input-banner {
     width: 100%;
     border-radius: 25px;
     background-color: transparent;
     border: 1px solid white;
     padding: 10px;
+    color: var(--branco);
 }
 
 #banner h2, p {
@@ -21,5 +33,6 @@
     background-position: 0.1em;
     background-repeat: no-repeat;
     text-align: center;
-    color: #FFFFFF;
+    color: var(--branco);
+    font-weight: 400;
 }

@@ -1,0 +1,28 @@
+#titulo-carrossel {
+    font-size: 1.1rem;
+    color: #EB9B00;
+    font-weight: 700;
+    padding: 1em; /*1em = 16px (valor padrão que vc colocar no body)*/
+    text-align: center;
+    background-color: var(--bg-color);
+}
+
+.swiper {
+    text-align: center;
+    width: auto;
+}
+
+.swiper-wrapper {
+    display: flex;
+    justify-content: space-around;
+}
+
+.swiper-slide img {
+    width: 100%;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+    display: none;
+}
+

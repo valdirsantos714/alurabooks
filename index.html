@@ -4,14 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AluraBooks</title>
-    <link rel="stylesheet" href="styles.css">
+    
     <link rel="stylesheet" href="reset.css">
+
+    <!--Font poppins que peguei do google fonts com font weight de 400, 500 e 700-->
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <!--Link de importação via CDN do Swiper JS para criação de carrosseis-->
+
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <!--Cabeçalho (header de cima)-->
     <header>
         <div class="cabecalho">
 
@@ -22,6 +34,8 @@
             </label>
 
             <img src="./assets/Logo.svg" alt="logo" >
+
+            <!--Lista que aparece quando aperta no menu hamburguer-->
 
             <ul class="lista">
                 <li class="lista-titulo">Categorias</li>
@@ -45,6 +59,8 @@
             </ul>
         </div>
 
+        <!--Restante dos itens do cabeçalho-->
+
         <div class="container" id="com ul ou nav não funciona">
 
             
@@ -63,10 +79,82 @@
         </div>
     </header>
 
+    <!--Banner que fica embaixo do header-->
+
     <section id="banner">
         <h2 id="titulo-banner"> Já sabe por onde começar?</h2>
         <p id="paragrafo-banner">Encontre em nossa estante o que precisa para seu desenvolvimento!</p>
         <input type="search" placeholder="Qual será sua próxima leitura?" id="input-banner">
     </section>
+
+    <!--Carrossel de imagens -->
+
+    <section id="carrossel">
+        <h2 id="titulo-carrossel">ÚLTIMOS LANÇAMENTOS</h2>
+
+        <!-- Slider main container -->
+    <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+        <!-- Slides -->
+
+        <div class="swiper-slide"  >
+            <img src="assets/ReactNative.svg" alt="Livro React Native">
+        </div>
+
+        <div class="swiper-slide"  >
+            <img src="assets/ApacheKafka.svg" alt="Livro ApacheKafka">
+        </div>
+
+        <div class="swiper-slide"  >
+            <img src="assets/UX.svg" alt="Livro de UX">
+        </div>
+
+
+        <div class="swiper-slide"  >
+            <img src="assets/Portugol.svg" alt="Livro Portugol">
+        </div>
+
+        <div class="swiper-slide"  >
+            <img src="assets/Nodejs.svg" alt="Livro Nodejs">
+        </div>
+        ...
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination">...</div>
+    
+        <!-- If we need navigation buttons butões de passar slides (só usar em desktop)--> 
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+    
+        <!-- If we need scrollbar -->
+        <div class="swiper-scrollbar"></div>
+    </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script>
+
+        const swiper = new Swiper('.swiper', {
+            slidesPerView: 2,
+            spaceBetween: 10,
+            
+        autoplay: {
+            delay: 2500, // tempo de atraso entre transições (em milissegundos)
+            disableOnInteraction: false, // autoplay não desativa após interação do usuário
+        },
+        loop: true, // permite loop infinito dos slides
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+        },
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+    });
+        
+    </script>
 </body>
 </html>
