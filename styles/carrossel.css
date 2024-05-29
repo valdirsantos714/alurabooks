@@ -1,24 +1,42 @@
-#titulo-carrossel {
+.carrossel {
+    padding: 18px;
+}
+
+.titulo-carrossel:nth-child(1) {
     font-size: 1.1rem;
     color: #EB9B00;
     font-weight: 700;
-    padding: 1em; /*1em = 16px (valor padrão que vc colocar no body)*/
+     /*1em = 16px (valor padrão que vc colocar no body)*/
     text-align: center;
     background-color: var(--bg-color);
 }
 
+/*Div que contém os slides, botões, setas e tudo mais*/
 .swiper {
     text-align: center;
     width: auto;
+    display: flex;
+    flex-flow: column-reverse; /*é preciso colocar isso pra ficar os botões de páginas de slides em cima dos slides*/
 }
 
-
+/*Fotos que vc coloca pra ficar passando*/
 .swiper-slide img {
     width: auto;
 }
 
+/*Botões de passar os slides*/
 .swiper-button-prev,
 .swiper-button-next {
     display: none;
 }
 
+/*Div que fica os botões pequenos que passa slides*/
+.swiper-pagination {
+    position: initial;
+    padding-bottom: 10px;
+}
+
+/*Botões pequenos que ficam passando ao passar os slides*/
+.swiper-pagination-bullet {
+    background-color: var(--font-color);
+}
