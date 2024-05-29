@@ -3,6 +3,8 @@
 @import url(styles/carrossel.css);
 @import url(styles/sugestao.css);
 @import url(styles/topicos.css);
+@import url(styles/secao-email.css);
+@import url(styles/footer.css);
 
 /*Aqui vc importa os outros estilos para não ficar um monte de links no index.html*/
 
@@ -13,6 +15,7 @@
     --branco: white;
     --bg-color-menu: black;
     --azul-degrade: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+    --bg-color-sugestao: gray;
 }
 
 body {
@@ -27,6 +30,7 @@ body {
         --bg-color: rgb(34, 33, 33);
         --font-color: #ccc;
         --bg-color-menu: black;
+        --bg-color-sugestao: rgba(0, 0, 0, 0.644);
     
     }
 

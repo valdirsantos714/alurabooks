@@ -1,0 +1,15 @@
+footer p, a {
+    font-weight: 400;
+    font-size: 1rem;
+    color: var(--branco);
+}
+
+footer a:hover {
+    color: black;
+    transition: 0.5s;
+}
+
+footer {
+    padding: 2rem 0.5rem;
+    background-color: darkslategrey;
+}

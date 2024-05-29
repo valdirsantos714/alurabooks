@@ -33,6 +33,8 @@
     background-position: 0.1em;
     background-repeat: no-repeat;
     text-align: center;
+    font-family: var(--font-principal);
+    font-size: 0.8rem;
     color: var(--branco);
     font-weight: 400;
 }
