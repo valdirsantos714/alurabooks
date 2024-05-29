@@ -2,6 +2,7 @@
 @import url(styles/banner.css);
 @import url(styles/carrossel.css);
 @import url(styles/sugestao.css);
+@import url(styles/topicos.css);
 
 /*Aqui vc importa os outros estilos para não ficar um monte de links no index.html*/
 
@@ -11,7 +12,7 @@
     --font-principal: "Poppins";
     --branco: white;
     --bg-color-menu: black;
-
+    --azul-degrade: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
 }
 
 body {
