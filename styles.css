@@ -1,6 +1,7 @@
 @import url(styles/header.css);
 @import url(styles/banner.css);
 @import url(styles/carrossel.css);
+@import url(styles/sugestao.css);
 
 /*Aqui vc importa os outros estilos para não ficar um monte de links no index.html*/
 

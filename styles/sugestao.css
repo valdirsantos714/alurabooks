@@ -1,0 +1,85 @@
+
+#sugestao {
+    background-color: rgba(0, 0, 0, 0.644);
+    margin: 24px;
+    box-shadow: white 4px;
+    /*Não pode colocar display flex aqui senão as outras divs ficam tudo tortas e não se ajeitam*/
+}
+
+#descricao {
+    padding: 16px;
+    text-align: center;
+}
+
+#card-descricao {
+    display: flex;
+    justify-content: space-around;
+}
+
+#descricao h3, p {
+    padding-bottom: 15px;
+}
+
+#descricao h3:first-child  {
+    color: #EB9B00;
+    font-size: 1em;
+    font-weight: 700;
+    line-height: 24px;
+
+}
+#descricao h3:nth-child(2)  {
+    color: #002F52;
+    font-weight: 700;
+    font-size: 1.1rem;
+    line-height: 27px;
+}
+
+#descricao p  {
+    line-height: 21px;
+    font-weight: 400;
+    font-size: 0.8rem;
+}
+
+
+
+#sugestao-angular {
+    width: auto;
+    height: auto;
+    margin: 24px 10px;
+}
+
+#icones {
+    display: flex;
+}
+
+#icones li:first-child {
+    margin-left: 45px;
+}
+
+#icones li:nth-child(2) {
+    margin-left: 25px;
+}
+
+#card-icones {
+    padding-bottom: 16px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#btn-sugestao a{
+    background-color: #EB9B00;
+    padding: 8px 16px;
+    text-align: center;
+    color: var(--branco);
+    font-weight: 700;
+    font-size: 1rem;
+    border: none;
+}
+
+#btn-sugestao {
+    margin-right: 5px;
+}
+
+
