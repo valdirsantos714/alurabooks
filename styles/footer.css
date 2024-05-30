@@ -3,6 +3,9 @@ footer p, a {
     font-size: 1rem;
     color: var(--branco);
 }
+footer h2 {
+    color: var(--branco);
+}
 
 footer a:hover {
     color: black;

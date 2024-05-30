@@ -55,11 +55,24 @@
 .lista-titulo {
     font-weight: bold;
     color: #EB9B00;
-    padding: 24px, 24px, 8px, 24px;
+    padding: 15px 0;
 }
 
 .lista-item {
    padding:  24px, 24px, 16px, 24px;
+   margin-bottom: 10px;
+}
+
+.lista-item a:hover{
+    background-color: white;
+    color: black;
+    transition: 0.7s;
+}
+
+.lista-item a {
+    margin: 10px;
+    padding: 5px;
+    border-radius: 20px;
 }
 
 .lista li a {

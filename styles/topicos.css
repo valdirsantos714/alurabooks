@@ -19,7 +19,7 @@
     flex-flow: row wrap;
 }
 
-.lista-item {
+.lista-item-topicos {
     font-size: 0.8rem;
     padding: 16px 24px;
     color: var(--branco);
