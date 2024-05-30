@@ -40,3 +40,10 @@
 .swiper-pagination-bullet {
     background-color: var(--font-color);
 }
+
+@media (min_width: 1024px) {
+    .swiper-button-prev,
+    .swiper-button-next {
+        display: flex;
+    }
+}

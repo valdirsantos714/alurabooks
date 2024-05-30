@@ -16,3 +16,27 @@ footer {
     padding: 2rem 0.5rem;
     background-color: darkslategrey;
 }
+
+
+.listas-footer {
+    display: none;
+}
+
+@media (min-width: 1024px) {
+
+    footer {
+        display: flex;
+        gap: 30px;
+    }
+
+    .listas-footer {
+        display: block;
+    }
+
+    .listas-footer-ul li {
+        display: flex;
+        align-items: center;
+        padding: 15px 0;
+        gap: 10px;
+    }
+}

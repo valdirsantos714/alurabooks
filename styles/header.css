@@ -32,9 +32,6 @@
 
 #amostraLista:checked ~ .lista {
     display: block;
-    position: absolute;
-    top: 100%;
-
 }
 
 #amostraLista:checked ~ .cabecalho__menu__hamburguer {
@@ -50,6 +47,9 @@
     width: 70%;
     background-color:  var(--bg-color-menu);
     font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 100%;
+
 }
 
 .lista-titulo {
@@ -77,4 +77,81 @@
 
 .lista li a {
     color: var(--branco);
+}
+
+.nomes-cabecalho {
+    display: none;
+}
+
+.container-segundo {
+    position: relative;
+}
+
+
+#amostraLista-tablet {
+    display: none;
+}
+
+.lista-tablet {
+    display: none;
+    position: absolute;
+    top: 100%;
+}
+
+.titulo-site {
+    display: none;
+}
+
+@media (min-width: 1024px) {
+    .cabecalho__menu__hamburguer {
+        display: none;
+    }
+
+    .Favoritos {
+        display: none;
+    }
+
+    .container {
+        display: flex;
+        gap: 25px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .nomes-cabecalho {
+        display: block;
+        font-weight: 400;
+        font-size: 1rem;
+    }
+
+    
+
+    #amostraLista-tablet:checked ~  .lista-tablet {
+        display: block;
+        width: auto;
+        left: 0;
+        margin: 0;
+        background-color:  var(--bg-color-menu);
+        font-size: 1rem;
+        text-align: center;
+        
+        
+    }
+
+    .lista-item a{
+        font-size: 1rem;
+    }
+
+    .titulo-site {
+        justify-content: center;
+        align-items: center;
+        display: block;
+        font-size: 1.8rem;
+        font-family: "Josefin Sans";
+        font-weight: 400;
+    }
+
+    .negrito {
+        font-weight: 700;
+    }
 }

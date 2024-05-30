@@ -12,6 +12,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
 
     <!--Link de importação via CDN do Swiper JS para criação de carrosseis-->
 
@@ -28,12 +29,13 @@
         <div class="cabecalho">
 
             <div class="container">
-            <input type="checkbox" name="amostrarLista" id="amostraLista">
+            <input type="checkbox" name="amostrarLista" id="amostraLista" class="opções__botão">
             <label id="label" for="amostraLista" >
                 <span class="cabecalho__menu__hamburguer"></span>
             </label>
 
             <img src="./assets/Logo.svg" alt="logo" >
+            <h2 class="titulo-site"> <b class="negrito">Alura</b>Books</h2>
 
             <!--Lista que aparece quando aperta no menu hamburguer-->
 
@@ -61,11 +63,46 @@
 
         <!--Restante dos itens do cabeçalho-->
 
-        <div class="container" id="com ul ou nav não funciona">
+        <div class="container container-segundo" id="com ul ou nav não funciona">
 
-            
+
+           
+                        <input type="checkbox" name="check" id="amostraLista-tablet">
+
+                        <label for="amostraLista-tablet">
+                            <h2 class="nomes-cabecalho categorias-tablet">CATEGORIAS </h2>
+                        </label>
+
+                    <ul class="lista-tablet">
+                        <li class="lista-titulo">Categorias</li>
+                        <li class="lista-item">
+                            <a href="#">PROGRAMAÇÃO</a>
+                        </li>
+                        <li class="lista-item">
+                            <a href="#">FRONT-END</a>
+                        </li>
+                        <li class="lista-item">
+                            <a href="#">INFRAESTRUTURA</a>
+                        </li>
+        
+                        <li class="lista-item">
+                            <a href="#">BUSINESS</a>
+                        </li>
+        
+                        <li class="lista-item">
+                            <a href="#">DESIGN & UX</a>
+                        </li>
+                    </ul>
+        
+                        <h2 class="nomes-cabecalho">
+                            <a href="#">FAVORITOS </a>
+                            </h2>
+                        <h2 class="nomes-cabecalho">
+                            <a href="#"> MINHA ESTANTE </a>
+                        </h2>
+
                         <a href="#">
-                            <img src="assets/Favoritos.svg" alt="Favoritos" class="container_imagem">
+                            <img src="assets/Favoritos.svg" alt="Favoritos" class="container_imagem Favoritos">
                         </a>
 
                         <a href="#">
@@ -229,18 +266,86 @@
     </section>
 
     <section id="secao-email">
-        <h2>Fique por dentro das novidades!</h2>
-        <p>Atualizações de e-books, novos livros, promoções e outros.</p>
+        <div id="textos">
+            <h2>Fique por dentro das novidades!</h2>
+            <p>Atualizações de e-books, novos livros, promoções e outros.</p>
+        </div>
+
         <input type="email" name="email-input" id="input-email" placeholder="Cadastre seu e-mail">
 
         <!--Tem que colocar o tipo de fonte dentro do placeholder no css também pq ele não pega a fonte principal do projeto-->
     </section>
 
     <footer>
-        <h2>Grupo Alura</h2>
-        <p>Criado por 
-            <a href="https://github.com/valdirsantos714" target="_blank">Valdir Santos</a>
-        </p>
+        <div id="texto-footer">
+            <h2>Grupo Alura</h2>
+            <p>Criado por 
+                <a href="https://github.com/valdirsantos714" target="_blank">Valdir Santos</a>
+            </p>
+        </div>
+
+        <div class="listas-footer" id="footer-educacao">
+            <h2>Educação</h2>
+            <ul class="listas-footer-ul">
+                <li>
+                    <img src="assets/Caelum.svg" alt="Caelum">
+                    Caelum
+                </li>
+
+                <li>
+                    <img src="assets/CasaDoCodigo.svg" alt="CasaDoCodigo">
+                    Casa do Código
+                </li>
+
+            </ul>
+        </div>
+
+        <div  class="listas-footer"id="footer-educacao-online">
+            <h2>Educação Online</h2>
+            <ul class="listas-footer-ul">
+                <li>
+                     <img src="assets/AluraLingua.svg" alt="AluraLingua">
+
+                     <a href="#">AluraLingua</a>
+                </li>
+                <li>
+                   <img src="assets/Alura.svg" alt="Alura">
+
+                   <a href="#">Alura</a>
+                </li>
+                 <li>
+                   <img src="assets/AluraLATAM.svg" alt="AluraLATAM">
+                   <a href="#">AluraLATAM</a>
+
+                </li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+            </ul>
+        </div>
+        
+        <div  class="listas-footer" id="footer-comunidade">
+            <h2>Comunidade</h2>
+            <ul class="listas-footer-ul">
+                <li>
+                    <img src="assets/HipstersTech.svg" alt="HipstersTech">
+                    <a href="">
+                    HipstersTech </a>
+                </li>
+                <li>
+                    <img src="assets/LikeABoss.svg" alt="LikeABoss">
+                    LikeABoss
+                </li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+
+
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>

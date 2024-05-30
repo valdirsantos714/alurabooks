@@ -11,8 +11,10 @@
 
 #paragrafo-banner {
     color: var(--branco);
-    font-size: 1em;
-    font-weight: 500;
+    font-size: 1rem;
+    font-weight: 500;       
+    padding-bottom: 24px;
+
 }
 
 #input-banner {
@@ -37,4 +39,19 @@
     font-size: 0.8rem;
     color: var(--branco);
     font-weight: 400;
+}
+
+@media (min-width: 1024px) {
+    #titulo-banner {
+        font-size: 2.2rem;
+    }
+
+    #input-banner {
+        width: 50%;
+    }
+
+    #input-banner::placeholder {
+        font-size: 1rem;
+        background-position: 3em;
+    }
 }

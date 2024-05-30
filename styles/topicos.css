@@ -26,3 +26,13 @@
     background-color: #EB9B00;
 }
 
+@media (min-width:1024px) {
+    #titulo-topicos {
+        font-size: 1.5rem;
+    }
+
+    .lista-item-topicos {
+        font-size: 1.5rem;
+        padding: 24px 32px;
+    }
+}

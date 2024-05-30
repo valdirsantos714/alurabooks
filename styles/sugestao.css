@@ -85,3 +85,14 @@
 }
 
 
+
+@media (min-width: 1024px) {
+    .sugestao {
+        width: 70%;
+        height: auto;
+        justify-content: center;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+
+}

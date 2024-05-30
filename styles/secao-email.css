@@ -17,7 +17,7 @@
 #secao-email p {
     font-weight: 300;
     font-size: 1rem;
-    color: var(--font-color);
+    color: var(--branco);
 }
 
 
@@ -40,3 +40,15 @@
     color: var(--branco);
 }
 
+@media (min-width: 1024px) {
+    #secao-email {
+        display: flex;
+        gap: 35px;
+    }
+
+    #input-email {
+        width: 40%;
+        height: auto;
+    }
+
+}
