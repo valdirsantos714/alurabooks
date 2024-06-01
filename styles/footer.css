@@ -33,10 +33,39 @@ footer {
         display: block;
     }
 
+    footer h2, li {
+        font-size: 1.2rem;
+    }
+
+    footer p, a{
+        font-size: 1.2rem;
+    }
+
+    footer h2 {
+        padding-left: 0rem;
+    }
+
+
     .listas-footer-ul li {
         display: flex;
         align-items: center;
         padding: 15px 0;
         gap: 10px;
     }
+}
+
+@media (min-width: 1778px) {
+
+    footer h2, li {
+        font-size: 1.7rem;
+    }
+
+    footer p, a{
+        font-size: 1.7rem;
+    }
+
+    footer h2 {
+        padding-left: 1.2rem;
+    }
+
 }

@@ -26,13 +26,28 @@
     background-color: #EB9B00;
 }
 
+
 @media (min-width:1024px) {
-    #titulo-topicos {
-        font-size: 1.5rem;
+
+    .titulo-topicos {
+        font-size: 2rem;
     }
 
     .lista-item-topicos {
-        font-size: 1.2rem;
+        font-size: 1rem;
+        padding: 24px 32px;
+        color: black;
+    }
+
+}
+
+@media (min-width:1778px) {
+    #titulo-topicos {
+        font-size: 2rem;
+    }
+
+    .lista-item-topicos {
+        font-size: 1.5rem;
         padding: 24px 32px;
         color: black;
     }

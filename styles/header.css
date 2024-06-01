@@ -215,6 +215,15 @@
     .sugestao {
         padding: 1rem;
     }
+
+    .categorias-tablet a,h2{
+        font-size: 1rem;
+    }
+
+    #categorias-h2 {
+        font-size: 1rem;
+    }
+
 }
 
 @media (min-width: 1728px) {
@@ -224,17 +233,18 @@
         display: flex;
         align-self: center;
         justify-self: center;
+        font-size: 1.2rem;
     }
 
     .container-icone-lado-um {
         display: flex;
-        gap: 15px;
+        gap: 5px;
         align-items: center;
     }
 
     .container-icone-lado-dois {
         display: flex;
-        gap: 15px;
+        gap: 5px;
         align-items: center;
     }
 
@@ -243,6 +253,14 @@
         gap: 25px;
         align-items: center;
         padding-right: 1rem;
+    }
+
+    .categorias-tablet a,h2{
+        font-size: 1.2rem;
+    }
+
+    #categorias-h2 {
+        font-size: 1.2rem;
     }
 
 }

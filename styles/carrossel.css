@@ -67,11 +67,29 @@
     .container-flex {
         display: flex;
         flex-flow: row ;
+        justify-content: space-around;
+
     }
 
     .container-flex-dois {
         display: flex;
         flex-flow: row ;
+        justify-content: space-around;
+    }
+
+    .swiper {
+        width: 50%;
+        margin-right: 2rem;
+    }
+
+    .titulos {
+        margin-left: 5.5rem;
+        display: flex;
+    }
+
+    .titulo-dois {
+        margin-left: 9rem;
+        display: flex;
 
     }
 }

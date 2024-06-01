@@ -44,7 +44,7 @@
 
 
 
-.sugestao-angular {
+.sugestao-imagem {
     width: auto;
     height: auto;
     margin: 24px 10px;
@@ -99,6 +99,67 @@
     .descricao h2, h3, p {
         font-size: 1.3rem;
     }
+
+    .descricao h2, h3, p {
+        font-size: 1.5rem;
+    }
+
+
+}
+
+@media (min-width: 1778px) {
+    .descricao h2, h3, p {
+        font-size: 1.8rem;
+    }
+
+    .sugestao {
+        height: auto;
+        justify-content: center;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+
+    .card-descricao {
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .descricao h3, p {
+        padding: 1.1rem;
+    }
+    
+
+    .descricao h2  {
+        color: #EB9B00;
+        font-size: 2rem;
+        font-weight: 700;
+        line-height: 2rem;
+        padding: 1.5rem;
+    
+    }
+    .descricao h3  {
+        color: var(--branco);
+        font-weight: 700;
+        font-size: 1.8rem;
+        line-height: 27px;
+    }
+    
+    .descricao p  {
+        color: var(--font-color);
+        font-weight: 400;
+        font-size: 1.7rem;
+        line-height: 2rem;
+
+    }
+    
+    .sugestao-imagem {
+        width: 35%;
+        height: auto;
+    }
+    
+
 
 
 }

@@ -46,6 +46,14 @@
         gap: 35px;
     }
 
+    #textos h2 {
+        font-size: 1.5rem;
+    }
+
+    #textos p {
+        font-size: 1.3rem;
+    }
+
     #input-email {
         justify-content: center;
         align-items: center;
@@ -55,4 +63,31 @@
         height: 30%;
     }
 
+}
+
+@media (min-width: 1778px) {
+    #textos h2 {
+        font-size: 1.7rem;
+    }
+
+    #textos p {
+        font-size: 1.5rem;
+    }
+
+    #input-email::placeholder {
+        font-weight: 400;
+        font-size: 1.5rem;
+        font-family: var(--font-principal);
+        background: url(../assets/email.svg) no-repeat; /*Com a regra background posso colocar mais de um comando*/
+        text-align: center;
+        background-position: 2em;
+        color: var(--branco);
+    }
+
+    #input-email {
+        font-size: 1.5rem;
+        padding: 10px 30px;
+
+    }
+    
 }
