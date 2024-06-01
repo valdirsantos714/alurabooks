@@ -35,7 +35,7 @@
             </label>
 
             <img src="./assets/Logo.svg" alt="logo" >
-            <h2 class="titulo-site"> <b class="negrito">Alura</b>Books</h2>
+            <h2 class="titulo-site"> <b class="negrito"> Alura </b> <span class="titulo-site books">Books</span> </h2>
 
             <!--Lista que aparece quando aperta no menu hamburguer-->
 
@@ -70,7 +70,7 @@
                         <input type="checkbox" name="check" id="amostraLista-tablet">
 
                         <label for="amostraLista-tablet">
-                            <h2 class="nomes-cabecalho categorias-tablet">CATEGORIAS </h2>
+                            <h2 id="categorias-h2" class="nomes-cabecalho categorias-tablet">CATEGORIAS </h2>
                         </label>
 
                     <ul class="lista-tablet">
@@ -93,25 +93,43 @@
                             <a href="#">DESIGN & UX</a>
                         </li>
                     </ul>
-        
-                        <h2 class="nomes-cabecalho">
+
+                    <div class="mais-categorias">
+                        <h2 class="nomes-cabecalho categorias-tablet">
                             <a href="#">FAVORITOS </a>
                             </h2>
-                        <h2 class="nomes-cabecalho">
+                        <h2 class="nomes-cabecalho categorias-tablet">
                             <a href="#"> MINHA ESTANTE </a>
                         </h2>
+
+                    </div>
+                    <div class="container-icones-lado-geral">
 
                         <a href="#">
                             <img src="assets/Favoritos.svg" alt="Favoritos" class="container_imagem Favoritos">
                         </a>
 
-                        <a href="#">
-                            <img src="assets/Compras.svg" alt="Compras" class="container_imagem">
-                        </a>
 
-                        <a href="#">
-                            <img src="assets/Usuario.svg" alt="Usuario" class="container_imagem">
-                        </a>
+                    <div class="container-icone-lado-um">
+
+                        <div class="icones-do-lado">
+                            <a href="#">
+                                <img src="assets/Compras.svg" alt="Compras" class="container_imagem">
+                            </a>
+                        </div>
+
+                        <p class="texto-pra-pc">Minhas Sacola</p>
+                    </div>
+
+                    <div class="container-icone-lado-dois">
+                        <div  class="icones-do-lado">
+                            <a href="#">
+                                <img src="assets/Usuario.svg" alt="Usuario" class="container_imagem">
+                            </a>
+                        </div>
+                        <p class="texto-pra-pc">Meu perfil</p>
+                    </div>
+                </div>
         </div>
         </div>
     </header>
@@ -128,7 +146,8 @@
 
     <section class="carrossel">
         <h2 class="titulo-carrossel">ÚLTIMOS LANÇAMENTOS</h2>
-
+    
+    <div class="container-flex">
         <!-- Slider main container -->
     <div class="swiper">
         <!-- Additional required wrapper -->
@@ -167,13 +186,13 @@
         <!-- If we need scrollbar -->
         <div class="swiper-scrollbar"></div>
     </div>
-    </section>
+    
 
     <section class="sugestao">
 
         <div class="card-descricao">
             <div class="descricao">
-                <h3>Talvez você também se interesse por...</h3>
+                <h2>Talvez você também se interesse por...</h2>
                 <h3>Angular 11 e Firebase</h3>
                 <p>Construindo uma aplicação integrada com a plataforma do Google.</p>
             </div>
@@ -191,11 +210,13 @@
             </ul>
             <button class="btn-sugestao"> <a href="#">Saiba mais </a></button>
     </div>
+    </div>
     </section>
 
     <section class="carrossel">
         <h2 class="titulo-carrossel">MAIS VENDIDOS</h2>
 
+    <div class="container-flex-dois">
         <!-- Slider main container -->
     <div class="swiper">
         <!-- Additional required wrapper -->
@@ -248,6 +269,7 @@
                 </li>
             </ul>
             <button class="btn-sugestao"> <a href="#">Saiba mais </a></button>
+        </div>
     </div>
     </section>
 

@@ -47,3 +47,32 @@
         display: flex;
     }
 }
+
+@media (min-width: 1778px) {
+    .titulo-carrossel:nth-child(1) {
+        font-size: 2rem;
+        display: flex;
+        flex-flow: column;
+    }
+
+    .carrossel {
+        padding: 1.5rem;
+    }
+    
+    .swiper-slide img {
+        width: auto;
+        height: 35rem;
+    }    
+    
+    .container-flex {
+        display: flex;
+        flex-flow: row ;
+    }
+
+    .container-flex-dois {
+        display: flex;
+        flex-flow: row ;
+
+    }
+}
+

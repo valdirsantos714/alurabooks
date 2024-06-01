@@ -26,6 +26,20 @@
     padding-right: 10px;
 }
 
+.container {
+    align-items: center;
+    display: flex;
+    padding-right: 20px;
+}
+
+.titulo-site, .books {
+    display: none;
+}
+
+.negrito {
+    display: none;
+}
+
 .lista {
     display: none;
 }
@@ -87,6 +101,9 @@
     position: relative;
 }
 
+.container-imagem {
+    display: flex;
+}
 
 #amostraLista-tablet {
     display: none;
@@ -101,6 +118,21 @@
 .titulo-site {
     display: none;
 }
+.texto-pra-pc {
+    display: none;
+    
+}
+
+.container-icones-lado-geral {
+    display: flex;
+}
+
+
+.container-icones-lado-geral {
+    gap: 0;
+    padding: 0;
+}
+
 
 @media (min-width: 1024px) {
     .cabecalho__menu__hamburguer {
@@ -118,13 +150,21 @@
         justify-content: center;
     }
 
-    .nomes-cabecalho {
-        display: block;
-        font-weight: 400;
-        font-size: 1rem;
+    .container-icones-lado-geral {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        padding-top: 5px;
     }
 
-    
+     .negrito {
+        flex-flow: row wrap;
+        display: flex;
+    }
+
+    .books {
+        display: flex;
+    }
 
     #amostraLista-tablet:checked ~  .lista-tablet {
         display: block;
@@ -135,9 +175,22 @@
         font-size: 1rem;
         text-align: center;
         
-        
     }
 
+    #categorias-h2 {
+        font-weight: 400;
+        font-size: 1rem;
+    }
+
+    .categorias-tablet {
+        display: flex;
+    }
+
+    .mais-categorias {
+        display: flex;
+        flex-flow: row wrap;
+        gap: 15px;
+    }
     .lista-item a{
         font-size: 1rem;
     }
@@ -145,7 +198,7 @@
     .titulo-site {
         justify-content: center;
         align-items: center;
-        display: block;
+        display: flex;
         font-size: 1.8rem;
         font-family: "Josefin Sans";
         font-weight: 400;
@@ -154,4 +207,42 @@
     .negrito {
         font-weight: 700;
     }
+
+    .container-segundo {
+        display: flex;
+    }
+
+    .sugestao {
+        padding: 1rem;
+    }
+}
+
+@media (min-width: 1728px) {
+
+    .texto-pra-pc {
+        padding-top: 5px;
+        display: flex;
+        align-self: center;
+        justify-self: center;
+    }
+
+    .container-icone-lado-um {
+        display: flex;
+        gap: 15px;
+        align-items: center;
+    }
+
+    .container-icone-lado-dois {
+        display: flex;
+        gap: 15px;
+        align-items: center;
+    }
+
+    .container-icones-lado-geral {
+        display: flex;
+        gap: 25px;
+        align-items: center;
+        padding-right: 1rem;
+    }
+
 }

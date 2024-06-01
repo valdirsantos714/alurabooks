@@ -17,18 +17,18 @@
     justify-content: space-around;
 }
 
-.descricao h3, p {
+.descricao h2, h3, p {
     padding-bottom: 15px;
 }
 
-.descricao h3:first-child  {
+.descricao h2  {
     color: #EB9B00;
     font-size: 1em;
     font-weight: 700;
     line-height: 24px;
 
 }
-.descricao h3:nth-child(2)  {
+.descricao h3  {
     color: var(--branco);
     font-weight: 700;
     font-size: 1.1rem;
@@ -39,7 +39,7 @@
     color: var(--font-color);
     line-height: 21px;
     font-weight: 400;
-    font-size: 0.8rem;
+    font-size: 1rem;
 }
 
 
@@ -94,5 +94,11 @@
         margin: 0 auto;
         margin-bottom: 20px;
     }
+
+
+    .descricao h2, h3, p {
+        font-size: 1.3rem;
+    }
+
 
 }

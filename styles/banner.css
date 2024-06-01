@@ -2,6 +2,7 @@
     background: var(--azul-degrade);
     text-align: center;
     padding: 24px;
+
 }
 
 #titulo-banner {
@@ -52,6 +53,32 @@
 
     #input-banner::placeholder {
         font-size: 1rem;
-        background-position: 3em;
+        background-position: 1em;
     }
+}
+
+@media (min-width: 1778px) {
+    #banner {
+        padding: 8rem;
+    }
+
+    #titulo-banner {
+        font-size: 3rem;
+    }
+
+    #banner p {
+        font-size: 2rem;
+    }
+    
+    #input-banner {
+        width: 80%;
+        font-size: 1.6rem;
+    }
+
+    #input-banner::placeholder {
+        font-size: 1.6rem;
+        background-position: 13rem;
+    }
+
+    
 }

@@ -47,8 +47,12 @@
     }
 
     #input-email {
+        justify-content: center;
+        align-items: center;
         width: 40%;
-        height: auto;
+        padding: 10px 10px;
+        margin-top: 1.5rem;
+        height: 30%;
     }
 
 }
