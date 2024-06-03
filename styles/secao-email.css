@@ -65,27 +65,27 @@
 
 }
 
-@media (min-width: 1778px) {
+@media (min-width: 1728px) {
     #textos h2 {
-        font-size: 1.7rem;
+        font-size: 2.3rem;
     }
 
     #textos p {
-        font-size: 1.5rem;
+        font-size: 2rem;
     }
 
     #input-email::placeholder {
         font-weight: 400;
-        font-size: 1.5rem;
+        font-size: 1.8rem;
         font-family: var(--font-principal);
         background: url(../assets/email.svg) no-repeat; /*Com a regra background posso colocar mais de um comando*/
         text-align: center;
-        background-position: 2em;
+        background-position: 1em;
         color: var(--branco);
     }
 
     #input-email {
-        font-size: 1.5rem;
+        font-size: 1.8rem;
         padding: 10px 30px;
 
     }

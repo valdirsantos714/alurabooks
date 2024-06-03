@@ -227,13 +227,28 @@
 }
 
 @media (min-width: 1728px) {
+    .titulo-site {
+        font-size: 1.5rem;
+    }
+    .titulo-site b, span {
+        font-size: 1.5rem;
+
+    }
+
+    .titulo-site span {
+        font-size: 1.5rem;
+    }
+
+    .lista-titulo {
+        font-size: 1.5rem;
+    }
 
     .texto-pra-pc {
         padding-top: 5px;
         display: flex;
         align-self: center;
         justify-self: center;
-        font-size: 1.2rem;
+        font-size: 1.5rem;
     }
 
     .container-icone-lado-um {
@@ -256,11 +271,15 @@
     }
 
     .categorias-tablet a,h2{
-        font-size: 1.2rem;
+        font-size: 1.5rem;
+    }
+
+    .categorias-tablet {
+        font-size: 1.5rem;
     }
 
     #categorias-h2 {
-        font-size: 1.2rem;
+        font-size: 1.5rem;
     }
 
 }

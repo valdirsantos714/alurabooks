@@ -48,7 +48,7 @@
     }
 }
 
-@media (min-width: 1778px) {
+@media (min-width: 1728px) {
     .titulo-carrossel:nth-child(1) {
         font-size: 2rem;
         display: flex;

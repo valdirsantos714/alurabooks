@@ -28,6 +28,10 @@ O projeto foi criado para ser responsivo em diferentes formatos de tela incluind
 
 ![Versão Tablet](assets/tablet%202.png)
 
+## Versão Desktop
+
+![Versão Desktop](assets/pc%201.png)
+![Versão Desktop](assets/pc%202.png)
 
 ## Agradecimentos
 

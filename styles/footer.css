@@ -54,10 +54,10 @@ footer {
     }
 }
 
-@media (min-width: 1778px) {
+@media (min-width: 1728px) {
 
     footer h2, li {
-        font-size: 1.7rem;
+        font-size: 2rem;
     }
 
     footer p, a{

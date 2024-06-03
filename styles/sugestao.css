@@ -45,7 +45,7 @@
 
 
 .sugestao-imagem {
-    width: auto;
+    width: 40%;
     height: auto;
     margin: 24px 10px;
 }
@@ -104,10 +104,14 @@
         font-size: 1.5rem;
     }
 
+    .descricao h2 {
+        line-height: 2rem;
+    }
+
 
 }
 
-@media (min-width: 1778px) {
+@media (min-width: 1728px) {
     .descricao h2, h3, p {
         font-size: 1.8rem;
     }
@@ -159,7 +163,9 @@
         height: auto;
     }
     
-
+    .btn-sugestao a{
+        font-size: 1.7rem;
+    }
 
 
 }

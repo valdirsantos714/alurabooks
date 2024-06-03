@@ -29,26 +29,28 @@
 
 @media (min-width:1024px) {
 
-    .titulo-topicos {
-        font-size: 2rem;
+    #titulo-topicos {
+        font-size: 1.7rem;
     }
 
     .lista-item-topicos {
-        font-size: 1rem;
+        font-size: 1.2rem;
         padding: 24px 32px;
         color: black;
     }
 
 }
 
-@media (min-width:1778px) {
+@media (min-width:1728px) {
     #titulo-topicos {
-        font-size: 2rem;
+        font-size: 2.3rem;
     }
 
     .lista-item-topicos {
-        font-size: 1.5rem;
+        font-size: 2rem;
         padding: 24px 32px;
         color: black;
     }
+
+    
 }
